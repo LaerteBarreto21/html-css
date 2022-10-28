@@ -2,48 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root{
-    --font01:Verdana, Geneva, Tahoma, sans-serif; 
-    --font02:'Passion One', cursive; 
-    --font03:'Sriracha', cursive; 
+:root {
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: 'Passion One', cursive;
+    --font03: 'Sriracha', cursive;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-header{
+header {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-header h1{
+header h1 {
     font-family: var(--font02);
     font-size: 15vw;
     padding-top: 50px;
     font-variant: small-caps;
-    
+
 }
 
-header p{
+header p {
     font-family: var(--font01);
     font-size: 2.7vw;
     padding-bottom: 50px;
-    
+
 }
 
-header > p > strong > a{
+header>p>strong>a {
     text-decoration: none;
     color: white;
 }
 
-header > p > strong > a:hover{
+header>p>strong>a:hover {
     text-decoration: underline;
 }
 
-section{
+section {
     font-family: var(--font03);
     font-size: 4vw;
     line-height: 2em;
@@ -52,47 +52,48 @@ section{
     padding-left: 30px;
 }
 
-section.normal{
-    background-color: #fff;
+section>p {
+    padding-bottom: 1.5em;
 }
 
-section.imagem1{
-    background-image: url(/html-css-modulo03/desafio/desafio012/imagens/background001.jpg);
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
     background-color: rgb(50, 50, 50);
-    background-repeat: no-repeat;
-    background-position: right center;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.54);
     background-size: cover;
     background-attachment: fixed;
-    color: white;
 }
 
-section.imagem2{
-    background-image: url(/html-css-modulo03/desafio/desafio012/imagens/background002.jpg);
-    background-color: rgb(50, 50, 50);
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
+
+
 }
 
-section.imagem1>p{
-    background-color: rgba(0, 0, 0, 0.317);
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+
+}
+
+section.imagem>p {
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 10px;
     border-radius: 2%;
-    
+    text-shadow: 0px 2px 1px black;
+
 }
 
-section.imagem2>p{
-    background-color: rgba(0, 0, 0, 0.317);
-    display: inline-block;
-    padding: 10px;
-    border-radius: 2%;
-    
-}
-
-footer{
+footer {
     background-color: black;
     padding: 20px;
     font-family: var(--font01);
@@ -100,16 +101,16 @@ footer{
     font-size: 2.7vh;
 }
 
-footer>p{
+footer>p {
     color: white;
     text-decoration: none;
 }
 
-footer>p>a{
+footer>p>a {
     color: white;
     text-decoration: none;
 }
 
-footer>p>a:hover{
+footer>p>a:hover {
     text-decoration: underline;
 }
