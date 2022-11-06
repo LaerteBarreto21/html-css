@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela ex</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;}
+        table{
+        width: 400px;
+        border-collapse: collapse;}
+        caption{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 5px;}
+        td, th{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;}
+        
+        col.cnome{
+        background: chartreuse;}
+
+        col.cgrupo{
+        background: yellow;}
+
+        col.cprof{
+        background: red;}
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr >
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr >
+            <td scope="col"  >Ana Maria</td>
+            <td scope="col" >F</td>
+            <td scope="col" >35</td>
+            <td scope="col" >Jornalista</td>
+        </tr>
+        <tr>
+            <td scope="col" >Pedro</td>
+            <td scope="col" >M</td>
+            <td scope="col" >23</td>
+            <td scope="col" >Mecânico</td>
+        </tr>
+        <tr >
+            <td scope="col" >Tim Barreto</td>
+            <td scope="col" >M</td>
+            <td scope="col" >15</td>
+            <td scope="col" >Desenvolvedor</td>
+        </tr>
+        <tr >
+            <td scope="col" >Caetano Rabelo</td>
+            <td scope="col" >M</td>
+            <td scope="col" >20</td>
+            <td scope="col" >Músico</td>
+        </tr>
+        <tr >
+            <td scope="col" >Lilian Rabelo</td>
+            <td scope="col" >F</td>
+            <td scope="col" >18</td>
+            <td scope="col" >Médica Veterinária</td>
+        </tr>
+    </table>
+</body>
+</html>
