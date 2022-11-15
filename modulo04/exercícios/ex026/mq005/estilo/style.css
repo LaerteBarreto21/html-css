@@ -26,6 +26,7 @@ i#burguer{
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    
 }
 
 i#burguer:hover{
@@ -35,6 +36,8 @@ i#burguer:hover{
 
 menu{
     display: none;
+    background-color: rgb(81, 81, 81);
+    padding: 15px;
 }
 
 menu > ul {
@@ -45,7 +48,6 @@ menu > ul > li > a{
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(81, 81, 81);
     color: white;
     text-align: center;
     border-top: 2px solid grey;
@@ -53,6 +55,7 @@ menu > ul > li > a{
 
 menu > ul > li > a:hover{
     background-color: grey;
+    border-radius: 10px;
 }
 
 main {
